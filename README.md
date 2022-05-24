@@ -1,5 +1,4 @@
 # veille_rsa
-Exemple de DataViz de l'opendata pole emploi
 
 ## Project description
 DataViz example with opendata from pole emploi
