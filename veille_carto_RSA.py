@@ -3,7 +3,6 @@ from dash import dcc
 from dash import html
 import plotly.express as px
 import glob
-import numpy as np
 import csv
 import datetime
 
@@ -17,7 +16,7 @@ orth_n_demandeurs = ["Nombre de demandeurs d'emploi", "Nombre de demandeurs d'em
 datas = []
 for filename in filenames:
     with open(filename, mode='r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
+        csv_reader = csv.DictReader(csv_file)        
         for row in csv_reader:
             data = {}
             for o1 in orth_taux:
