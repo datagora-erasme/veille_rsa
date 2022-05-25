@@ -78,7 +78,6 @@ mapbox_style    'carto-positron' pas mal
                 'stamen-toner'
                 'open-street-map'
 '''
-fig.show()
 
 app = dash.Dash()
 app.layout = html.Div(children=[
