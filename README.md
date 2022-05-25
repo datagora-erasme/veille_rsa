@@ -5,6 +5,5 @@ DataViz example with opendata from pole emploi
 
 ## How to use it
 
-install py modules if not already installes
-
-run veille_carto_rsa.py
+pip install -r requirements.txt  
+py veille_carto_RSA.py
